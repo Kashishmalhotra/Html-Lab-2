@@ -1,0 +1,113 @@
+body {
+    background-color: black; /* Set your desired background color */
+    margin: 0;
+}
+
+
+.zone {
+    padding: 30px;
+    border: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zone img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    border-radius: 5px; /* You can adjust this value based on your preference */
+}
+/* Developed By Kashish(22112015) */
+
+
+
+body{
+    margin: 0;
+
+}
+
+
+.NavBar{
+    margin: 0;
+    list-style: none ;
+    display: flex;
+    font-size: 1.5em;
+    color: rgb(112, 9, 13);
+}
+/* I phone */
+
+@media only screen and (max-width: 600px) {
+    .NavBar{
+        font-size: 1em;
+    }
+ 
+} 
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;    
+}
+
+li{
+    list-style: none;
+    padding: 12px;
+}
+
+.push{
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(79, 12, 12);
+    
+}
+
+.cover{
+    display: flex;
+    font-size: 3rem;
+    border-radius: 0px;
+    align-items: center;
+    justify-content: center;
+    height: 32vw;
+}
+
+.grid-wrapper{
+    display: grid;
+    gap: 0;
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+}
+
+.pro {
+    background-color: rgb(11, 9, 9);
+    border-radius: 2px;
+    padding: 20px;
+    margin: 3px; 
+    font-size: 2em; 
+}
+
+.pro:hover{
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+
+footer{
+    text-align: center;
+    border-radius: 0px;
+}
+
+.blue{
+    background-color: black;
+}
+
+.green{
+    background-color: rgb(15, 13, 13);
+    color: rgb(79, 12, 12);
+}
